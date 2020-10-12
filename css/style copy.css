@@ -22,6 +22,11 @@ a:hover {
   color: #B959492;
 }
 
+p {
+  padding:5rem 0;
+  color:#959492;
+}
+
 main {
   display:grid;
   grid-template-columns: 2fr 1fr ;
