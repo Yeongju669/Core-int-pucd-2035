@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Sansita Swashed', serif;
+  font-family: 'Josefin Sans', serif;
   background-color: #eaeaea;
 }
 
@@ -58,7 +58,7 @@ main {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Sansita Swashed', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin-bottom:1rem;
 }
 
