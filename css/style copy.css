@@ -4,22 +4,22 @@
 html {
   font-size: 1rem;
   font-family: 'Josefin Sans', serif;
-  background-color: #eaeaea;
+  background-color: #42413D;
 }
 
 body {
   padding:5rem 0;
-  color:#333F48;
+  color:#FFCE2B;
 }
 
 a {
   text-decoration: underline;
-  color: #ae7f3d;
+  color: #B2AFAC;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ae7f3d;
+  color: #B2AFAC;
 }
 
 main {
