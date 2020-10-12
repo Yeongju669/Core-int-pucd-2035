@@ -12,11 +12,6 @@ body {
   color:#FFCE2B;
 }
 
-p {
-  padding:5rem 0;
-  color:#959492;
-}
-
 a {
   text-decoration: underline;
   color: #B2AFAC;
@@ -24,7 +19,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #959492;
+  color: #B959492;
 }
 
 main {
