@@ -58,7 +58,7 @@ main {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Crimson Pro', sans-serif;
   margin-bottom:1rem;
 }
 
@@ -81,7 +81,7 @@ h4 {
 
 li {
   font-size: 1.25rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Crimson Pro', sans-serif;
   line-height: 1.5;
   padding: .5rem 0;
 }
@@ -94,7 +94,7 @@ p {
 
 .location {
   font-size: 1rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Crimson Pro', sans-serif;
   text-transform: uppercase;
   line-height: 1.5;
 }
@@ -106,6 +106,6 @@ img {
 
 figcaption {
   font-size: .875rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Crimson Pro', sans-serif;
   padding-top: 1rem;
 }
