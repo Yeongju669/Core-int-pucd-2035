@@ -41,11 +41,8 @@ main {
   grid-column:1fr;
 }
 
-.article2 {
-  grid-column:2fr;
-}
 
-.pull-quote {
+.pull-quote.article2{
   grid-column:1fr;
 }
 
