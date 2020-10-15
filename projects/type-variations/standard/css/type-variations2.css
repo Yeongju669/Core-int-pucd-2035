@@ -27,7 +27,7 @@ main {
   grid-template-columns: 1fr 1fr 2fr;
   grid-auto-rows:min-content;
   grid-gap:2rem;
-  max-width: 80vw;
+  max-width: 90vw;
   margin: 0 auto;
 }
 
