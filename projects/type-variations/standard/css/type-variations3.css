@@ -28,7 +28,7 @@ main {
   grid-column-end:   4;
   grid-auto-rows:min-content;
   grid-gap:2rem;
-  max-width: 70vw;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
