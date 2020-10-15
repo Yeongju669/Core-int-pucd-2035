@@ -24,7 +24,7 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns:[col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-3-end];
+  grid-template-columns: 1fr 1fr 2fr
   grid-auto-rows:min-content;
   grid-gap:2rem;
   width: 80vw;
