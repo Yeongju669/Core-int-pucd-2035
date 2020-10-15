@@ -24,10 +24,10 @@ a:hover {
 
 main {
   display:grid;
-  grid-template-columns: 2fr 1fr ;
+  grid-template-columns: 50% 50% ;
   grid-auto-rows:min-content;
   grid-gap:2rem;
-  max-width: 30vw;
+  max-width: 50vw;
   margin: 0 auto;
 }
 
@@ -38,7 +38,11 @@ main {
 }
 
 .article {
-  grid-column:1 / 3;
+  grid-column:50%;
+}
+
+.article2 {
+  grid-column:50%;
 }
 
 .projects {
@@ -96,12 +100,6 @@ p {
   margin-bottom:1rem;
 }
 
-.location {
-  font-size: 1rem;
-  font-family: 'Lora', serif;
-  text-transform: uppercase;
-  line-height: 1.5;
-}
 
 .pull-quote {
   font-size: 2.25rem;
@@ -111,13 +109,3 @@ p {
   padding:2rem;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
-figcaption {
-  font-size: .875rem;
-  font-family: 'Lora', serif;
-  padding-top: 1rem;
-}
