@@ -24,22 +24,23 @@ a:hover {
 
 main {
   display:grid;
-grid-template-columns: repeat(11, 1fr);  
-grid-template-rows: repeat(11, min-content);  
+grid-template-columns: repeat(9, 1fr);  
+grid-template-rows: repeat(7, min-content);  
 grid-gap:2rem;
-  max-width: 70vw;
+  max-width: 50vw;
   margin: 0 auto;
 }
 
 
 
 .intro-block {
-  grid-column:1 / 5;
+  grid-column:6 / 9;
   grid-row:4 / 8;
+  text-align: left;
 }
 
 .article {
-  grid-column:3 / 8;
+  grid-column:3 / 9;
   grid-row:3 / 7;
 }
 
@@ -124,18 +125,19 @@ p {
 
 .pull-quote {
   grid-column:3 / 9;
-  grid-row:1 / 11;
+  grid-row:5 / 7;
   font-size: 6rem;
   font-family: 'Lora', serif;
   line-height: 1.5;
   font-weight:400;
   padding:2rem;
+  text-align: left;
 
 }
 
 .vert-quote {
   grid-column:6 / 9;
-  grid-row:1 / 11;
+  grid-row:2 / 7;
   font-size: 3rem;
   font-family: 'Lora', serif;
   line-height: 1.5;
