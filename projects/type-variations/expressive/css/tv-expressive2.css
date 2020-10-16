@@ -24,40 +24,40 @@ a:hover {
 
 main {
   display:grid;
-grid-template-columns: repeat(11, 1fr);  
-grid-template-rows: repeat(11, min-content);  
+grid-template-columns: repeat(20, 1fr);  
+grid-template-rows: repeat(20, min-content);  
 grid-gap:2rem;
-  max-width: 70vw;
+  max-width: 80vw;
   margin: 0 auto;
 }
 
 
 
 .intro-block {
-  grid-column:1 / 5;
-  grid-row:4 / 8;
+  grid-column:7/ 20;
+  grid-row:1 / 8;
 }
 
 .article {
-  grid-column:3 / 8;
-  grid-row:3 / 7;
+  grid-column: 6 /20;
+  grid-row: 9 / 20;
 }
 
 .article-2 {
-  grid-column:3 / 9;
-  grid-row:4 / 7;
+  grid-column: 16/ 20;
+  grid-row:4 / 20;
 }
 .article-3 {
-  grid-column:3 / 10;
-  grid-row:5 / 7;
+  grid-column:3 /20;
+  grid-row:5 / 20;
 }
 .article-4 {
-  grid-column:3 / 11;
-  grid-row:6 / 7;
+  grid-column:3 / 20;
+  grid-row:6 / 20;
 }
 .article-5 {
-  grid-column:3 / 11;
-  grid-row:8 / 7;
+  grid-column:1 / 20;
+  grid-row: 8 / 20;
 }
 
 .projects {
@@ -123,8 +123,8 @@ p {
 }
 
 .pull-quote {
-  grid-column:3 / 9;
-  grid-row:1 / 11;
+  grid-column:10 / 20;
+  grid-row: 3 / 20;
   font-size: 6rem;
   font-family: 'Lora', serif;
   line-height: 1.5;
