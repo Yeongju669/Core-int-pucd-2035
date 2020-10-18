@@ -24,8 +24,8 @@ a:hover {
 
 main {
   display:grid;
-grid-template-columns: repeat(11, 1fr);  
-grid-template-rows: repeat(11, min-content);  
+grid-template-columns: repeat(8, 1fr);  
+grid-template-rows: repeat(5, min-content);  
 grid-gap:2rem;
   max-width: 70vw;
   margin: 0 auto;
@@ -34,13 +34,13 @@ grid-gap:2rem;
 
 
 .intro-block {
-  grid-column:1 / 5;
-  grid-row:4 / 8;
+  grid-column:2 / 7;
+  grid-row: 1 / 5;
 }
 
 .article {
-  grid-column:3 / 8;
-  grid-row:3 / 7;
+  grid-column:3 / 5;
+  grid-row:2 / 7;
 }
 
 .article-2 {
@@ -48,35 +48,42 @@ grid-gap:2rem;
   grid-row:4 / 7;
 }
 .article-3 {
-  grid-column:3 / 10;
-  grid-row:5 / 7;
+  grid-column:7 / 10;
+  grid-row:4 / 7;
+  text-align: right;
 }
 .article-4 {
-  grid-column:3 / 11;
-  grid-row:6 / 7;
+  grid-column:1 / 8;
+  grid-row:4 / 7;
 }
 .article-5 {
-  grid-column:3 / 11;
-  grid-row:8 / 7;
+  grid-column:6 / 9;
+  grid-row:3 / 7;
+  text-align: center;
 }
 
-.projects {
-  grid-column:2 / 3;
+.pull-quote {
+  grid-column:2 / 9;
+  grid-row:2 / 11;
+  font-size: 6rem;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  font-weight:400;
+  padding:2rem;
+  text-align: right;
 }
 
-.item {
-  grid-column:1;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
+.vert-quote {
+  grid-column:5 / 9;
+  grid-row:1 / 11;
+  font-size: 3rem;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  font-weight:400;
+  writing-mode: vertical-rl;
+  padding:2rem;
+
 }
-
-.definition {
-  grid-column:2;
-  border-top: 1px solid #ccc;
-  padding: 1rem 0;
-}
-
-
 
 h1, h2, h3, h4, h5 {
   font-family: 'Lora', serif;
@@ -115,35 +122,7 @@ p {
   margin-bottom:1rem;
 }
 
-.location {
-  font-size: 1rem;
-  font-family: 'Lora', serif;
-  text-transform: uppercase;
-  line-height: 1.5;
-}
 
-.pull-quote {
-  grid-column:3 / 9;
-  grid-row:1 / 11;
-  font-size: 6rem;
-  font-family: 'Lora', serif;
-  line-height: 1.5;
-  font-weight:400;
-  padding:2rem;
-
-}
-
-.vert-quote {
-  grid-column:6 / 9;
-  grid-row:1 / 11;
-  font-size: 3rem;
-  font-family: 'Lora', serif;
-  line-height: 1.5;
-  font-weight:400;
-  writing-mode: vertical-rl;
-  padding:2rem;
-
-}
 
 img {
   display: block;
