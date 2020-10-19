@@ -3,7 +3,7 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Lora', serif;
+  font-family: 'Abril Fatface', serif;
   background-color: #fff;
 }
 
@@ -69,19 +69,24 @@ main {
   grid-column:2 / 3;
   grid-row: 2 / 5;
   font-size: 2.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'El Messiri', serif;
   line-height: 1.5;
   font-weight:400;
   padding:2rem;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Lora', serif;
+h1 {
+  font-family: 'Abril Fatface', serif;
+  margin-bottom:1rem;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Alegreya Sans', serif;
   margin-bottom:1rem;
 }
 
 h1 {
-  font-size:3.375rem;
+  font-size:5rem;
   font-weight:700;
   font-style: italic;
 }
@@ -106,7 +111,7 @@ li {
 }
 
 p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom:1rem;
