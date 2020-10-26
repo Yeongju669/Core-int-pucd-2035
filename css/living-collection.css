@@ -6,7 +6,7 @@
 html {
   font-size: 1rem;
   font-family: 'Lora', serif;
-  background-color: #fff;
+  background-color: #eaeaea;
 }
 
 body {
@@ -55,21 +55,24 @@ img {
 
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Lora', serif;
   margin-bottom:.5rem;
+    font-family: Josefin Sans
 }
 
 h1 {
   font-size:2rem;
   font-weight:700;
   font-style: italic;
+  font-family: Josefin Sans
 }
 h2 {
   font-size:1.75rem;
+  font-family: Josefin Sans
 }
 h3 {
   font-size:1.5rem;
   font-weight:400;
+  font-family: Crimson Pro
 
 }
 h4 {
@@ -85,7 +88,7 @@ li {
 }
 
 .artist-name {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   line-height: 1;
   font-weight:700;
   margin-top:.5rem;
