@@ -13,7 +13,7 @@ let y = 0;
 
 
 function setup() {
-  createCanvas(1700, 1200);
+  createCanvas(1680, 975);
   noStroke();
 }
 
