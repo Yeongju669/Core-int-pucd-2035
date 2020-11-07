@@ -6,8 +6,8 @@
  */
 let squareX, squareY;  // Position of square button
 let circleX, circleY;  // Position of circle button
-let squareSize = 100;   // Width/height of square
-let circleSize = 103;   // Diameter of circle
+let squareSize = 150;   // Width/height of square
+let circleSize = 153;   // Diameter of circle
 
 let squareColor;
 let circleColor;
@@ -39,10 +39,10 @@ function draw() {
     background(baseColor);
   }
 
-  stroke(255);
+  stroke(255,228,181);
   fill(squareColor);
   square(squareX, squareY, squareSize);
-  stroke(0);
+  stroke(63, 80, 89);
   fill(circleColor);
   circle(circleX, circleY, circleSize);
 }
