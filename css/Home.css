@@ -38,7 +38,7 @@ h1{
 
 p {
   color: #ffffff;
-  font-family: 'News Cycle';
+  font-family: 'Palanquin';
   font-size: 16px;
 }
 
@@ -59,7 +59,10 @@ p {
   padding: 5px 20px;
   font-size: 16px;
   display: inline-block;
+}
 
+.dropdown li:hover{
+  text-decoration: underline;
 }
 
 .dropdown-content {
