@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(234,234,234);
+  background(97,109,123);
 
   // lerp() calculates a number between two numbers at a specific increment.
   // The amt parameter is the amount to interpolate between the two values
@@ -29,7 +29,7 @@ function draw() {
   x = lerp(x, mouseX, 0.07);
   y = lerp(y, mouseY, 0.07);
 
-  fill(63,80,89);
-  stroke(255,228,181);
+  fill(225,225,225);
+  stroke(255,225,225);
   ellipse(x, y, 100, 100);
 }
