@@ -5,23 +5,23 @@
 
 html {
   font-size: 1rem;
-  font-family: 'Lora', serif;
-  background-color: #eaeaea;
+  font-family: 'News Cycle', serif;
+  background-color: #606c7c;
 }
 
 body {
   padding:5rem 0;
-  color:#000;
+  color:#ffffff;
 }
 
 a {
   text-decoration: underline;
-  color: #ae7f3d;
+  color: #606c7c;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ae7f3d;
+  color: #606c7c;
 }
 
 
@@ -56,51 +56,49 @@ img {
 
 h1, h2, h3, h4, h5 {
   margin-bottom:.5rem;
-    font-family: Josefin Sans
+    font-family: News Cycle
 }
 
 h1 {
-  font-size:2rem;
+  font-size: 45px;
   font-weight:700;
-  font-style: italic;
-  font-family: Josefin Sans
+  font-family: News Cycle;
+  letter-spacing: 5px;
 }
 h2 {
   font-size:1.75rem;
-  font-family: Josefin Sans
+  font-family: News Cycle
 }
 h3 {
   font-size:1.5rem;
   font-weight:400;
-  font-family: Crimson Pro
+  font-family: News Cycle
+  color: #c9cfe4;
 
-}
-h4 {
-  font-size:1rem;
 }
 
 
 li {
   font-size: 1.25rem;
-  font-family: 'Lora', serif;
+  font-family: 'News Cycle', serif;
   line-height: 1.5;
   padding: .5rem 0;
 }
 
 .artist-name {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'News Cycle', sans-serif;
   line-height: 1;
   font-weight:700;
   margin-top:.5rem;
 }
 
 .exhibit-title {
-  color:#777;
+  color:#bac0d5;
 }
 
 
 p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'News Cycle', sans-serif;
   font-size: 1.125rem;
   line-height: 1.5;
   margin-bottom:1rem;
