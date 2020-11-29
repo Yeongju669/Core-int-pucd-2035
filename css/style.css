@@ -1,3 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: auto;
+  margin: auto;
+}
+.dropdown{
+  margin-right: 300px;
+  margin: auto;
+}
+
+
+body{
+  background-image: url("../img/IMG_0752.jpg");
+  height: 100vh;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+
+a {
+  color: #ffffff;
+  font-family: 'News Cycle';
+}
+
+h1{
+  color: #ffffff;
+  font-family: 'News Cycle' ;
+  font-size: 34px;
+  letter-spacing: 7px;
+  }
+
+p {
+  color: #ffffff;
+  font-family: 'Palanquin';
+  font-size: 16px;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block; 
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.dropdown li{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.dropdown li:hover{
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2D3C45;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 
@@ -24,6 +104,8 @@ a {
   text-decoration: underline;
   color: #ffffff;
 }
+
+
 
 a:hover {
   text-decoration: none;
@@ -104,7 +186,7 @@ h4 {
 
 li {
   font-size: 1.0rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'News Cycle', sans-serif;
   line-height: 1.25;
   padding: .5rem 0;
 }
@@ -114,5 +196,62 @@ p {
   line-height: 1.5;
   margin-bottom:1rem;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: auto;
+  margin: auto;
+}
+.dropdown{
+  margin-right: 300px;
+  margin: auto;
+}
+
+
+body{
+  background-image: url("../img/IMG_0752.jpg");
+  height: 100vh;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+
+a {
+  color: #ffffff;
+  font-family: 'News Cycle';
+}
+
+h1{
+  color: #ffffff;
+  font-family: 'News Cycle' ;
+  font-size: 34px;
+  letter-spacing: 7px;
+  }
+
+p {
+  color: #ffffff;
+  font-family: 'News Cycle';
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
