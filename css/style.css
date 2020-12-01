@@ -65,18 +65,17 @@
 html {
   font-size: 1rem;
   font-family: 'News Cycle', serif;
-  background-color: #7D8A99;
+  background-color: black;
 }
 
 body {
   background-image: url("../img/IMG_7556.jpg");
-  height: 100vh;
   -webkit-background-size:cover;
   background-size: cover;
+    height: 100vh;
   background-position: center center;
   position: relative;
-  background-repeat: no-repeat;
-  background-color: #cccccc;
+  background-repeat: repeat;
 }
 
 a {
