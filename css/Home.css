@@ -14,7 +14,7 @@
 
 
 body{
-  background-image: url("../img/IMG_0752.jpg");
+  background-image: url("../img/IMG_7556.jpg");
   height: 100vh;
   -webkit-background-size:cover;
   background-size: cover;
@@ -31,21 +31,15 @@ a {
 
 h1{
   color: #ffffff;
-  font-family: 'News Cycle' ;
-  font-size: 34px;
+  font-family: 'Texturina' ;
+  font-size: 40px;
   letter-spacing: 7px;
   }
-
-p {
-  color: #ffffff;
-  font-family: 'Palanquin';
-  font-size: 16px;
-}
-
 
 
 .dropdown {
   position: relative;
+  right: 100px;
   display: inline-block; 
   float: right;
   list-style: none;
@@ -68,7 +62,7 @@ p {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #2D3C45;
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
@@ -79,9 +73,10 @@ p {
   display: block;
 }
 
-
-
-
+mark {
+  background-color: #E58EC8;
+  color: black;
+}
 
 
 
