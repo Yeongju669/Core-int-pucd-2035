@@ -57,6 +57,7 @@ h1{
 
 .dropdown li:hover{
   text-decoration: underline;
+  color: #E58EC8;
 }
 
 .dropdown-content {

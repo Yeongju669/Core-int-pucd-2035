@@ -6,12 +6,19 @@
 html {
   font-size: 1rem;
   font-family: 'News Cycle', serif;
-  background-color: #606c7c;
+  background-color: black;
 }
+
 
 body {
   padding:5rem 0;
   color:#ffffff;
+  background-image: url("../img/IMG_7556.jpg");
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: repeat;
 }
 
 a {
@@ -73,7 +80,7 @@ h3 {
   font-size:1.5rem;
   font-weight:400;
   font-family: News Cycle
-  color: #c9cfe4;
+  color: white;
 
 }
 
@@ -93,7 +100,7 @@ li {
 }
 
 .exhibit-title {
-  color:#bac0d5;
+  color:white;
 }
 
 
@@ -104,5 +111,8 @@ p {
   margin-bottom:1rem;
 }
 
-
+mark {
+  background-color: black;
+  color: white;
+}
 
