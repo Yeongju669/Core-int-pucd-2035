@@ -141,10 +141,12 @@ li {
   color: black;
 }
 
-li:hover {
-  color: #E58EC8;
+
+.links li:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
+
 
 p {
   font-size: 1.125rem;
