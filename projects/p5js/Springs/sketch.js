@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(97,109,123);
+  background(0,0,0);
 
   for (let i = 0; i < num; i++) {
 	springs[i].update();
@@ -124,9 +124,9 @@ function Spring (_x, _y, _s, _d, _m, _k_in, _others, _id) {
 
   this.display = function() {
 	if (this.over) {
-	  fill(255,255,255);
+	  fill(181, 181, 181);
 	} else {
-	    fill(174, 187, 204);
+	    fill(255,255,255);
 	  }
 	ellipse(this.x_pos, this.y_pos, this.size, this.size);
   }

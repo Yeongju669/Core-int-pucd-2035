@@ -18,9 +18,9 @@ let circleOver = false;
 
 function setup() {
   createCanvas(1680, 975);
-  squareColor = color(97,109,123);
+  squareColor = color(0,0,0);
   circleColor = color(255,255,255);
-  baseColor = color(174, 187, 204);
+  baseColor = color(181, 181, 181);
   circleX = width/2+circleSize/2+10;
   circleY = height/2;
   squareX = width/2-squareSize-10;
