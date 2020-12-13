@@ -61,12 +61,16 @@
 
 }
 
-
-html {
-  font-size: 1rem;
-  font-family: 'News Cycle', serif;
-  background-color: #7D8A99;
+.over-img {
+  position: relative;
+  width: 430px; 
+  height: 550px;
+  margin-top: -120px;
+  margin-left: 300px;
 }
+
+
+
 
 body {
   background-image: url("../img/IMG_7556.jpg");
@@ -75,8 +79,7 @@ body {
   background-size: cover;
   background-position: center center;
   position: relative;
-  background-repeat: no-repeat;
-  background-color: #cccccc;
+
 }
 
 a {
@@ -115,7 +118,7 @@ h1 {
   letter-spacing: 7px;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5{
   font-family: 'News Cycle', sans-serif;
   margin-bottom:1rem;
   color: white;
@@ -131,7 +134,12 @@ h3 {
 h4 {
   font-size:1rem;
 }
-
+h5 {
+  font-size: 14px;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+}
 
 li {
   font-size: 1.0rem;
