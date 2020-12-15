@@ -104,6 +104,17 @@ html {
   padding: 50px;
   margin-left: 300px;
 }
+.su {
+  grid-column:1 ;
+  grid-row:4 ;
+  background-color: transparent;
+  align-self: center;
+  width: 300px;
+  border: 8px solid #ffffff;
+  padding: 50px;
+  margin-left: 300px;
+  margin-bottom: 80px;
+}
 
 .text-1 {
     grid-column:3/14 ;

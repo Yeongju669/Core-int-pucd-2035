@@ -25,40 +25,21 @@ html {
 h1 {
   font-size: 350px;
   color: white;
+  line-height: 230px;
 }
-h2 {
-  font-size: 350px;
-  color: white;
-}
-h3 {
-  font-size: 350px;
-  color: white;
-}
-h4 {
-  font-size: 14px;
-  color: white;
-  text-align: right;
 
-}
 
 
 .die {
-  margin-left: 30px;
-    margin-top: -200px;
+position: relative;
+top: -150px;
+  left: 30px;
+
 }
 
-.gute {
-  margin-left: 322px;
-  margin-top: -470px;
-}
 
-.form {
-  margin-left: 322px;
-  margin-top:-455px;
-}
 
 .sub {
-  margin-right: 50px;
-  margin-top: -500px;
+
 }
 
